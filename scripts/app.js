@@ -3,11 +3,7 @@ let apiUrl = 'https://icanhazdadjoke.com/';
 
 //  random joke
 function fetchJoke() {
-  return fetch(apiUrl, {
-    headers: {
-      'Accept': 'application/json'
-    }
-  })
+  return fetch(apiUrl)
   .then(response => {
     return response.json();
   })
