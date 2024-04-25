@@ -1,0 +1,30 @@
+
+body{
+    background-color: black;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+
+}
+h1,h2{
+    color: white;
+
+}
+
+
+.container {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+ 
+  img {
+    
+    height: 300px;
+  }
+
+  .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #000000 !important;
+}
+  .orange{
+    color: orange;
+  }
